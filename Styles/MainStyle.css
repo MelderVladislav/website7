@@ -1,114 +1,103 @@
-﻿* {
-  margin: 0;
-  padding: 0;
-}
-body {
-   background: url('../Resourses/mainfon.png') no-repeat center center fixed;
-   background-size: cover;
-   /*background-color:green;*/
+body
+{
+    background: url('../Resourses/mainfon.png') no-repeat center center fixed;
+    background-size: cover;
+    /*background-color: green;*/
 }
 /*
-#myfooter {
-    background-image:url('../Resourses/footer.png');
-    
+#myfooter
+{
+    background-image: url('../Resourses/footer.png');
     position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 80px;
-  z-index:10;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+    z-index: 10;
 }
 */
 #slider
 {
-	
-position:relative;
-    /*background-color:red;*/
-  margin-top:70px;
-   z-index:20;
-
+    position: relative;
+    /*background-color: red;*/
+    margin-top: 70px;
+    z-index: 20;
 }
 #addresstable td
 {
-	border-right: 25px solid transparent;
-	
+    border-right: 25px solid transparent;
 }
-#addresstable 
-{width:887px;
-position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:20px;
+#addresstable
+{
+    width: 887px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
 }
 #refstable 
 {
-	
-	position:relative;
-	margin-left:auto;
-	margin-right:auto;
-	margin-top:50px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
 }
 #bookcell
 {
-	padding:20px;
+    padding: 20px;
 }
 #slidertable
 {
-	
-	
-	/*background-color:blue;*/
-	margin-left:auto;
-margin-right:auto;
-
-	}
+    /*background-color: blue;*/
+    margin-left: auto;
+    margin-right: auto;
+}
 .arrows
 {
-	padding:0;
+    padding: 0;
 }
 #RightButton
 {
-	margin-right:30%;
+    margin-right: 30%;
 }
 #LeftButton
 {
-	margin-left:auto;
+    margin-left: auto;
 }
 .arrows
 {
-	
-	width:82px;
-	height:24px;
+    width: 82px;
+    height: 24px;
 }
 .arrows
 {
-	opacity:0.7;
+    opacity: 0.7;
 }
 .arrows:hover
 {
-	opacity:0.9;
+    opacity: 0.9;
 }
 .opel
 {
-	opacity:0.7;
+    opacity: 0.7;
 }
 .opel:hover
 {
-	opacity:0.9;
+    opacity: 0.9;
 }
 #logoImg
 {
-position:relative;
-padding:0;
-margin-left:auto;
-margin-right:auto;
-width:400px;
-height:270px;
-z-index:30;
+    position: relative;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    height: 270px;
+    z-index: 30;
 }
-#wrapper {
-	margin:0 auto;
-  width:900px;
-  min-height: 100%;
+#wrapper
+{
+    margin: 0 auto;
+    width: 900px;
+    min-height: 100%;
 }
-
-
