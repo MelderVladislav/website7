@@ -1,28 +1,28 @@
-﻿window.onload = loader;
-
+window.onload = loader;
 
 function loader()
 {
     var Counter = 0;
-   
+    
     var PictureMassiv = ["/Resourses/photos/001.jpg", 
 	"/Resourses/photos/002.jpg", "/Resourses/photos/101.jpg", 
 	"/Resourses/photos/102.jpg", "/Resourses/photos/201.jpg", "/Resourses/photos/202.jpg"];
-	 /*
+	/*
     var PictureMassiv = ["Resourses/photos/001.jpg", 
 	"Resourses/photos/002.jpg", "Resourses/photos/101.jpg", 
 	"Resourses/photos/102.jpg", "Resourses/photos/201.jpg", "Resourses/photos/202.jpg"];*/
-	 var ImgNumber = PictureMassiv.length;
+    var ImgNumber = PictureMassiv.length;
     var Image = document.getElementById("logoImg");
     Image.src = PictureMassiv[Counter];
     var leftBtn = document.getElementById("LeftButton");
     var rightBtn = document.getElementById("RightButton");
     var isBig=false;
-	rightBtn.addEventListener("click", NextPhoto, false)
-    leftBtn.addEventListener("click", PreviousPhoto, false)
-	Image.addEventListener("click",IncreasePhoto2,false);
-	document.body.addEventListener("click", ReducePhoto, false);
-	document.addEventListener("click", ReducePhoto2, false);
+    rightBtn.addEventListener("click", NextPhoto, false);
+    leftBtn.addEventListener("click", PreviousPhoto, false);
+    Image.addEventListener("click",NextPhoto,false);
+	/*Image.addEventListener("click",IncreasePhoto2,false);*/
+	/*document.body.addEventListener("click", ReducePhoto, false);*/
+	/*document.addEventListener("click", ReducePhoto2, false);*/
 	var currentWidth=400;
 	var currentHeight=270;
 	var usualRel=currentHeight/currentWidth;
