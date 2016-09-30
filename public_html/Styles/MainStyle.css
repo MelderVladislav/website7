@@ -4,13 +4,9 @@
 }
 body {
    background: url('../Resourses/mainfon.png') no-repeat center center fixed;
-   
-    background-size: cover;
-	/*background-color:green;*/
-	
+   background-size: cover;
+   /*background-color:green;*/
 }
-
-
 /*
 #myfooter {
     background-image:url('../Resourses/footer.png');
