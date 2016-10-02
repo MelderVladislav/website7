@@ -122,6 +122,7 @@ body
     margin-right:auto;
     height:30%;
     
+    
 }
 #sliderDiv
 {
@@ -161,4 +162,13 @@ body
     margin: 0 auto;
     max-width: 900px;
     min-height: 100%;
+}
+#footer
+{
+      position: fixed; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    height:10%; /* Поля вокруг текста */
+    background: #1E1927;
+    color: black; /* Цвет текста */
+    width: 100%;
 }
