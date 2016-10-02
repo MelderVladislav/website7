@@ -86,7 +86,6 @@ body
 {
     opacity: 0.9;
 }
-#
 /*
 #logoImg
 {
@@ -121,7 +120,8 @@ body
     margin-left: auto;
     margin-right:auto;
     height:30%;
-    
+    margin-bottom: 50px;
+    overflow: hidden;
     
 }
 #sliderDiv
@@ -165,10 +165,11 @@ body
 }
 #footer
 {
-      position: fixed; /* Фиксированное положение */
+    position: fixed; /* Фиксированное положение */
     left: 0; bottom: 0; /* Левый нижний угол */
     height:10%; /* Поля вокруг текста */
     background: #1E1927;
     color: black; /* Цвет текста */
     width: 100%;
+    z-index: 100;
 }
