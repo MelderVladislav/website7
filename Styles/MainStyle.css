@@ -160,13 +160,16 @@ body
 }
 #contacts
 {
-    height:20%;
     text-align: center;
+    overflow: hidden;
+}
+#contacts > div
+{
+    display: inline-block;
 }
 .contimg
 {
-    width:20px;
-    height:20px;
+    width: 50px;
 }
 .contactsref:link, .contactsref:visited, .contactsref:active
 {
