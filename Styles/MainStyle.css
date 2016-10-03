@@ -163,21 +163,24 @@ body
     text-align: center;
     overflow: hidden;
 }
-#contacts > div
-{
-    display: inline-block;
-}
 .contimg
 {
     width: 50px;
+    float: left;
 }
 .contactsref:link, .contactsref:visited, .contactsref:active
 {
     opacity:0.7;
     color:white;
     font-size:22px;
-    position:relative;
-    margin-bottom: 20%;
-    text-align: center;
-    width:100%;
+    display: inline-block;
+}
+.contactsref:hover {
+    opacity: 0.9;
+}
+.contactsref p {
+    float: left;
+    line-height: 50px;
+    margin: 0;
+    padding: 0 10px;
 }
