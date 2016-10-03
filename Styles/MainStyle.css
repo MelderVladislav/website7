@@ -152,12 +152,7 @@ body
     width: 100%;
     z-index: 100;
 }
-#phoneref:link, #phoneref:visited, #phoneref:active
-{
 
-
-
-}
 #contacts
 {
     text-align: center;
@@ -281,3 +276,54 @@ body
     background: #222;
     background: rgba(0,0,0, .8);
 }
+#refsdiv
+{
+   
+    width:50%;
+    height:40%;
+    margin-left:auto;
+    margin-right:auto;
+    
+}
+#refsimage1
+{
+    opacity:0.7;
+    position: relative;
+    margin-left:25%;
+    padding:0;
+    width:25%;
+    height:25%;
+    
+}
+#refsimage2
+{
+    opacity:0.7;
+    position: relative;   
+    padding:0;
+    width:24%;
+    height:24%;
+ }
+ #refsimage3
+{
+    opacity:0.7;
+    position: relative;
+    margin-left:36%;
+    padding:0;
+    width:30%;
+    height:30%;
+ }
+ #refsimage1:hover, #refsimage2:hover, #refsimage3:hover
+ {
+     opacity:0.9;
+ } 
+ #refsimage4
+{
+    opacity:0.7;
+    position: relative;   
+    width:45%;
+    height:45%;
+    margin-left:30%;
+ }
+  a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+   } 
