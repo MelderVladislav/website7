@@ -1,6 +1,9 @@
+/* Подключение шрифтов */
+@import 'https://fonts.googleapis.com/css?family=Open+Sans&subset=cyrillic';
 body {
     background-image: url(../images/background.png);
     margin: 0;
+    font-family: 'Open Sans';
 }
 #container {
     max-width: 978px;
@@ -16,6 +19,10 @@ body {
     vertical-align: middle;
     padding-right: 10px;
     white-space: nowrap; /* Запрет переноса */
+}
+#contacts > div > a {
+    color: #fff;
+    text-decoration: none;
 }
 #contacts > div img {
     vertical-align: middle;
