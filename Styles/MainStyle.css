@@ -2,12 +2,13 @@ body
 {
     background: url('../Resources/mainfon.png') no-repeat center center fixed;
     background-size: cover;
-    
+    width: 100%;
+    height: 100%;
 }
 /*
 #myfooter
 {
-    background-image: url('../Resourses/footer.png');
+    background-image: url('../Resources/footer.png');
     position: absolute;
     left: 0;
     bottom: 0;
@@ -16,6 +17,16 @@ body
     z-index: 10;
 }
 */
+#upcrutch
+{
+    height: 50%;
+    background-color: green;
+    padding: 0;
+}
+#halfdiv
+{
+    height: 100%;
+}
 .onefourth
 {
     width: 25%;
@@ -23,14 +34,26 @@ body
 }
 .addresspic, .halfonefourth
 {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0;
     margin-left: 5%;
     width: 90%;
 }
-.addresshalfpic {
+.addresshalfpic
+{
     width: 100%;
+    margin-top: 0;
+    padding: 0;
+    margin-bottom: 0;
+    position: relative;
 }
-.crutch {
-    margin-top: -6px;
+#crutch
+{
+    height: 50%;
+    margin-top: -4%;
+    background-color: blue;
+    padding: 0;
 }
 #slider
 {
@@ -38,23 +61,23 @@ body
     /*background-color: red;*/
     margin-top: 70px;
     z-index: 20;
+    height: 30%;
 }
-
 #addresstable
 {
     overflow: hidden;
-    max-width: 887px;
+    max-width: 50%;
     position: relative;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
 }
-#refstable 
+#refstable
 {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 50px;
+    margin-top: 3%;
 }
 #bookcell
 {
@@ -67,24 +90,21 @@ body
     margin-left: auto;
     margin-right: auto;
 }
-
-
-
 .arrows, .addresspic, .addresshalfpic
 {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .arrows:hover, .addresspic:hover, .addresshalfpic:hover
 {
-    opacity: 0.9;
+    opacity: 1;
 }
 .opel
 {
-    opacity: 0.7;
+    opacity: 0.9;
 }
 .opel:hover
 {
-    opacity: 0.9;
+    opacity: 1;
 }
 /*
 #logoImg
@@ -96,105 +116,175 @@ body
     margin-right: auto;
     z-index: 30;
 }*/
-
 .arrows
 {
-    vertical-align:middle;
-    
-    position:relative;
-    padding:0;
-    height:30%;
-    width:100%;
+    vertical-align: middle;
+    margin-top: 160%;
+    position: relative;
+    padding: 0;
+    height: 30%;
+    width: 100%;
 }
 #newslider
-{   
-    
-    position:relative;
-    width:60%;
+{
+  /*  background-color:blue;*/
+    position: relative;
+    width: 40%;
     margin-left: auto;
-    margin-right:auto;
-    height:30%;
+    margin-right: auto;
+    height: 20%;
     margin-bottom: 50px;
+    display: block;
     overflow: hidden;
-    
+}
+.arrowsDiv
+{
+    position: relative;
+    height: 100%;
+    /*background-color:red;*/
+    width: 15%;
+    display: block;
+    float: left;
 }
 #sliderDiv
 {
-    width:60%;
-   height:100%;
-   
-}
-.arrowsDiv
-{   
-    background-color: green;
-    position:relative;
-    height:100%;
-   
-    
-    width:20%;
-    
-}
-.arrowsDiv, #sliderDiv
-{
-    
-    
+    display: block;
+    width: 70%;
+    height: 100%;
     float: left;
+    /*background-color:green;*/
 }
 #logoImg
 {
     width: 100%;
-    height:100%;
+    height: 100%;
     position: relative;
     padding: 0;
     margin-left: auto;
     margin-right: auto;
     z-index: 30;
-    
-}
-#wrapper
-{
-    
-    margin: 0 auto;
-    max-width: 900px;
-    min-height: 100%;
 }
 #footer
 {
-    position: fixed; /* Фиксированное положение */
-    left: 0; bottom: 0; /* Левый нижний угол */
-    height:10%; /* Поля вокруг текста */
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 10%;
     background: #1E1927;
-    color: black; /* Цвет текста */
+    color: black;
     width: 100%;
     z-index: 100;
 }
-
 #phoneref:link, #phoneref:visited, #phoneref:active
 {
-    
-   
-    
 }
 #contacts
 {
-
-height:20%;
-text-align: center;
+    height: 20%;
+    text-align: center;
 }
-
 .contimg
 {
-    width:20px;
-    height:20px;
+    width: 20px;
+    height: 20px;
 }
 .contactsref:link, .contactsref:visited, .contactsref:active
 {
-    
-    opacity:0.7;
-    color:white;
-    font-size:22px;
-   position:relative;
-   margin-bottom: 20%;
+    opacity: 0.9;
+    color: white;
+    font-size: 22px;
+    position: relative;
+    margin-bottom: 20%;
     text-align: center;
-    width:100%;
+    width: 100%;
+}
+#refsdiv
+{
+    width: 50%;
+    height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#refsimage1
+{
+    opacity: 0.9;
+    position: relative;
+    width: 8%;
+    height: 8%;
+    padding: 0;
+}
+#refsimage2
+{
+    opacity: 0.9;
+    position: relative;
+    padding: 0;
+    width: 8%;
+    height: 8%;
+}
+#refsimage3
+{
+    margin-top: 2%;
+    opacity: 0.9;
+    position: relative;
+    width: 10%;
+    height: 10%;
+ }
+#refsimage1:hover, #refsimage2:hover, #refsimage3:hover
+{
+    opacity: 1;
+}
+#refsimage4
+{
+    opacity: 1;
+    position: relative;
+    width: 20%;
+    height: 20%;
+    margin-top: 1%;
+}
+a {
+    text-decoration: none;
+}
+.nana
+{
+    text-align: center;
+}
+#thinborder
+{
+    background-color: white;
+    height: 3px;
+    min-width: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    margin-bottom: 2%;
+}
+.linktext
+{
+    position: relative;
+    color: white;
+    min-height: 10%;
+    font-size: 1.5vw;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman';
+}
+.linkref:link, .linkref:active, .linkref:visited
+{
+    margin: 0;
+    position: relative;
+    padding: 0;
+    color: white;
+    min-height: 10%;
+    font-size: 1.5vw;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+}
+#linkdiv
+{
+    position: relative;
+    width: 50%;
+    text-align: right;
+    margin-left: auto;
+    margin-right: auto;
 }
