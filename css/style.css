@@ -32,9 +32,22 @@ body {
 }
 /* Адреса */
 #addresses {
-    clear: both;
+    width: 100%;
 }
-
+#addresses > div {
+    float: left;
+    width: 50%;
+}
+#addresses > div > div {
+    float: left;
+    width: 50%;
+}
+#addresses img {
+    width: 100%
+}
+#addresses > div > div > div > a {
+    top: 5px;
+}
 /* Социальные сети */
 
 
